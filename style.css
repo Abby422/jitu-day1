@@ -1,0 +1,93 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(4, 58, 58);
+}
+.navbar{
+    height: 2.7rem;
+    background-color: rgb(4, 58, 58);
+    text-decoration: none;
+    padding-top: 1rem;
+    text-align: right;
+    color: white;
+}
+.navbar>a{
+    font-size: 16px;
+}
+.navbar>a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.about{
+    position: relative;
+}
+.about>h1{
+    text-align: right;
+    margin-right: 3rem;
+}
+.about>p{
+    text-align: right;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.about>img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 25rem;
+    bottom: 26px;
+    margin: auto;
+}
+.pink-container{
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+}
+.skills>ul>li{
+    list-style: none;
+}
+.skills, .projects  {
+    margin-left: 3rem;
+}
+.education{
+    text-align: center;
+}
+.work{
+    text-align: right;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+}
+
+[href]{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+}
+.button{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 0.7rem;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+h1 , h3{
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

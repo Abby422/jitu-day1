@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div>
-        <nav style="border: 1px solid black; padding: 5px; ">
+        <nav class="navbar">
             <a href="#aboutMe">About Me</a>
             <a href="#skills">Skills</a>
             <a href="#education">Education</a>
@@ -16,25 +17,22 @@
             <a href="#work">Work Experience</a>
         </nav>
     </div>
-    <div>
-        <h1 id="aboutMe">About Me</h1>
-        <p>I am a software developer trainee.</p>
-        <img src="art-hauntington-jzY0KRJopEI-unsplash.jpg" alt="Woman's face" width="100px" height="100px">
-        <p>Let's connect:</p>
-    <a href="https://twitter.com/i/flow/signup?" target="_blank">Twitter</a>
-    <a href="#">LinkedIn</a>
-    <a href="#">GitHub</a>
+    <div class="about">
+        <h1 class="heading" id="aboutMe">About Me</h1>
+        <p >I am a software developer trainee.</p>
+        <img src="art-hauntington-jzY0KRJopEI-unsplash.jpg" alt="Woman's face" >
+       <div class="pink-container"></div>
     </div>
-    <div>
+    <div class="skills">
         <h1 id="skills">Skills</h1>
         <ul>
-            <li>HTML</li>
+            <li id="html">HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
         </ul>
     </div>
 
-    <div>
+    <div class="education">
         <h1 id="education">Education</h1>
         <div>
             <h3>University</h3>
@@ -49,29 +47,39 @@
         </div>
     </div>
 
-    <div>
+    <div class="projects">
         <h1 id="projects">Projects</h1>
-        <div>
+        <div class="projects">
             <h4>Title of the project</h4>
             <p>This is a cool project developed by HTML</p>
             <a href="https://www.ikea.com/404" target="_blank">Link to my project</a>
         </div>
-        <div>
+        <div class="projects">
             <h4>Portfolio website</h4>
             <p>This is a portfolio project</p>
             <a href="https://github.com/404" target="_blank">Github</a>
         </div>
     </div>
-    <div>
+    <div class="work">
         <h1 id="work">Work experience</h1>
         <div>
             <h4>Internship at the Jitu</h4>
             <p>what I did here</p>
         </div>
     </div>
+    <div class="contactme">
 
+    </div>
+    <div class="button">
+        <button>Contact me</button>
+    </div>
+    
     <footer style="background-color:black; color: white; text-align: center;">
         <p>Abigail</p>
+        <p>Let's connect:</p>
+        <a href="https://twitter.com/i/flow/signup?" target="_blank">Twitter</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
     </footer>
 </body>
 </html>
